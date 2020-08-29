@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Exercicios</string>
+    <string name="Ex1_nome">Name</string>
+    <string name="Ex1_sobrenome">Last Name</string>
+    <string name="Ex1_ola">Hello</string>
+    <string name="EX1_BtnOla2">Hello,</string>
+    <string name="Ex1_msg">Message</string>
+</resources>
