@@ -5,4 +5,18 @@
     <string name="Ex1_ola">Olá</string>
     <string name="EX1_BtnOla2">Olá,</string>
     <string name="Ex1_msg">Mensagem</string>
+    <string name="Ex1_camposVazios">Por favor preencher todos os campos!</string>
+    <string name="Ex2_Nome">Nome</string>
+    <string name="Ex2_sobrenome">Sobrenome</string>
+    <string name="Ex2_Genero">Gênero</string>
+    <string name="Ex2_EstadoCivil">Estado civil</string>
+    <string name="Ex2_Feminino">Feminino</string>
+    <string name="Ex2_Masculino">Masculino</string>
+    <string name="Ex2_PrefiroNaoInformar">Prefiro não informar</string>
+    <string name="Ex2_Solteiro">Solteiro(a)</string>
+    <string name="Ex2_Casado">Casado(a)</string>
+    <string name="Ex2_Viuvo">Viúvo(a)</string>
+    <string name="Ex2_VerInformacoes">Ver informações</string>
+    <string name="Ex2_msg">Olá!</string>
+    <string name="Ex2_Preferencias">Preferências</string>
 </resources>

@@ -9,11 +9,22 @@ class Ex1Activity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_ex1)
 
-        val ola = getString(R.string.EX1_BtnOla2)
+        val ola = getString(R.string.Ex1_ola)
         val msg = getString(R.string.Ex1_msg)
 
+        var texto = ""
+
         btnExibir.setOnClickListener {
-            val texto = "$ola  ${etNome.text}  ${etSobreNome.text}!"
+
+            if(etNome.text.isEmpty() || etSobreNome.text.isEmpty())
+            {
+                texto = getString(R.string.Ex1_camposVazios)
+            }
+            else
+            {
+                texto = "$ola  ${etNome.text}  ${etSobreNome.text}!"
+            }
+
             alert(msg, texto, this)
         }
     }

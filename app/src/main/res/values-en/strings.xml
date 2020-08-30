@@ -6,4 +6,18 @@
     <string name="Ex1_ola">Hello</string>
     <string name="EX1_BtnOla2">Hello,</string>
     <string name="Ex1_msg">Message</string>
+    <string name="Ex1_camposVazios">All fields are required!</string>
+    <string name="Ex2_Nome">Name</string>
+    <string name="Ex2_sobrenome">Last Name</string>
+    <string name="Ex2_Genero">Genre</string>
+    <string name="Ex2_EstadoCivil">Marital status</string>
+    <string name="Ex2_Feminino">Feminine</string>
+    <string name="Ex2_Masculino">Male</string>
+    <string name="Ex2_PrefiroNaoInformar">I prefer not to inform</string>
+    <string name="Ex2_Solteiro">Single</string>
+    <string name="Ex2_Casado">Married</string>
+    <string name="Ex2_Viuvo">Widower</string>
+    <string name="Ex2_VerInformacoes">View information</string>
+    <string name="Ex2_msg">Hello!</string>
+    <string name="Ex2_Preferencias">Preferences</string>
 </resources>
