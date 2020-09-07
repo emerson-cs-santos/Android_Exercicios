@@ -34,32 +34,34 @@
             android:layout_height="match_parent">
 
             <RadioGroup
+                android:id="@+id/rgOperacoes"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
 
                 <RadioButton
-                    android:id="@+id/radioButton"
+                    android:id="@+id/rbSomar"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="RadioButton" />
+                    android:text="Somar (+)" />
 
                 <RadioButton
-                    android:id="@+id/radioButton2"
+                    android:id="@+id/rbSubtrair"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="RadioButton" />
+                    android:text="Subtrair (-)" />
 
                 <RadioButton
-                    android:id="@+id/radioButton3"
+                    android:id="@+id/rbMultiplicar"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="RadioButton" />
+                    android:text="Multiplicar (*)" />
 
                 <RadioButton
-                    android:id="@+id/radioButton4"
+                    android:id="@+id/rbDividir"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="RadioButton" />
+                    android:text="Dividir(/)" />
             </RadioGroup>
 
         </TableRow>
@@ -69,11 +71,14 @@
             android:layout_height="match_parent">
 
             <EditText
-                android:id="@+id/editTextNumber5"
+                android:id="@+id/etValor1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
                 android:ems="10"
-                android:inputType="number" />
+                android:hint="Valor 1"
+                android:inputType="number|numberDecimal" />
         </TableRow>
 
         <TableRow
@@ -81,11 +86,15 @@
             android:layout_height="wrap_content">
 
             <EditText
-                android:id="@+id/editTextNumber6"
+                android:id="@+id/etValor2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:layout_weight="1"
                 android:ems="10"
-                android:inputType="number" />
+                android:hint="Valor 2"
+                android:inputType="number|numberDecimal" />
         </TableRow>
 
         <TableRow
@@ -93,10 +102,11 @@
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/btnCalcular"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Button" />
+                android:layout_weight="1"
+                android:text="Calcular" />
         </TableRow>
 
     </TableLayout>
