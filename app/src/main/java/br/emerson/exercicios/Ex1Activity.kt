@@ -16,13 +16,13 @@ class Ex1Activity : AppCompatActivity() {
 
         btnExibir.setOnClickListener {
 
-            if(etNome.text.isEmpty() || etSobreNome.text.isEmpty())
+            if(etNomeEx4.text.isEmpty() || etSobreNome.text.isEmpty())
             {
                 texto = getString(R.string.Ex1_camposVazios)
             }
             else
             {
-                texto = "$ola  ${etNome.text}  ${etSobreNome.text}!"
+                texto = "$ola  ${etNomeEx4.text}  ${etSobreNome.text}!"
             }
 
             alert(msg, texto, this)

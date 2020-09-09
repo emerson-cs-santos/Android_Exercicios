@@ -18,7 +18,7 @@ class Ex2Activity : AppCompatActivity() {
             val genero = getString(R.string.Ex2_Genero)
             val estadoCivil = getString(R.string.Ex2_EstadoCivil)
 
-            texto = """ $nome: ${etNome.text}
+            texto = """ $nome: ${etNomeEx4.text}
             |$sobrenome: ${etSobreNome.text}
             |
             |$preferencias
