@@ -28,7 +28,6 @@ class Ex6Activity : AppCompatActivity() {
             check = 0
             operacao = 0
             txtResultadoEx6.setText("")
-            
         }
 
         // Igual
