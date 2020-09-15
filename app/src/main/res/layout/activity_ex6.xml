@@ -8,7 +8,7 @@
     tools:context=".Ex6Activity">
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/etNumerosEx6"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -25,7 +25,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView8"
+        android:id="@+id/txtResultadoEx6"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -36,10 +36,10 @@
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+        app:layout_constraintTop_toBottomOf="@+id/etNumerosEx6" />
 
     <LinearLayout
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="281dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="36dp"
@@ -47,7 +47,7 @@
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView8">
+        app:layout_constraintTop_toBottomOf="@+id/txtResultadoEx6">
 
         <TableLayout
             android:layout_width="wrap_content"
@@ -61,7 +61,7 @@
                 android:layout_height="match_parent">
 
                 <Button
-                    android:id="@+id/button3"
+                    android:id="@+id/btn7Ex6"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:backgroundTint="#3C4042"
@@ -70,7 +70,7 @@
                     android:textSize="24sp" />
 
                 <Button
-                    android:id="@+id/button4"
+                    android:id="@+id/btn8Ex6"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:backgroundTint="#3C4042"
@@ -79,7 +79,7 @@
                     android:textSize="24sp" />
 
                 <Button
-                    android:id="@+id/button5"
+                    android:id="@+id/btn9Ex6"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:backgroundTint="#3C4042"
@@ -94,7 +94,7 @@
                 android:layout_height="match_parent">
 
                 <Button
-                    android:id="@+id/button7"
+                    android:id="@+id/btn4Ex6"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:backgroundTint="#3C4042"
@@ -103,7 +103,7 @@
                     android:textSize="24sp" />
 
                 <Button
-                    android:id="@+id/button8"
+                    android:id="@+id/btn5Ex6"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:backgroundTint="#3C4042"
@@ -112,7 +112,7 @@
                     android:textSize="24sp" />
 
                 <Button
-                    android:id="@+id/button9"
+                    android:id="@+id/btn6Ex6"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:backgroundTint="#3C4042"
@@ -127,7 +127,7 @@
                 android:layout_height="match_parent">
 
                 <Button
-                    android:id="@+id/button19"
+                    android:id="@+id/btn1Ex6"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:backgroundTint="#3C4042"
@@ -136,7 +136,7 @@
                     android:textSize="24sp" />
 
                 <Button
-                    android:id="@+id/button20"
+                    android:id="@+id/btn2Ex6"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:backgroundTint="#3C4042"
@@ -145,7 +145,7 @@
                     android:textSize="24sp" />
 
                 <Button
-                    android:id="@+id/button21"
+                    android:id="@+id/btn3Ex6"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:backgroundTint="#3C4042"
@@ -160,7 +160,7 @@
                 android:layout_height="match_parent">
 
                 <Button
-                    android:id="@+id/button23"
+                    android:id="@+id/btnPontoEx6"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:backgroundTint="#3C4042"
@@ -169,7 +169,7 @@
                     android:textSize="24sp" />
 
                 <Button
-                    android:id="@+id/button24"
+                    android:id="@+id/btn0Ex6"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:backgroundTint="#3C4042"
@@ -178,7 +178,7 @@
                     android:textSize="24sp" />
 
                 <Button
-                    android:id="@+id/button25"
+                    android:id="@+id/btnIgualEx6"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:backgroundTint="#3C4042"
@@ -199,7 +199,7 @@
                 android:layout_height="match_parent">
 
                 <Button
-                    android:id="@+id/button30"
+                    android:id="@+id/btnApagarEx6"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:backgroundTint="#5F6267"
@@ -213,7 +213,7 @@
                 android:layout_height="match_parent">
 
                 <Button
-                    android:id="@+id/button31"
+                    android:id="@+id/btnDividirEx6"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:backgroundTint="#5F6267"
@@ -227,7 +227,7 @@
                 android:layout_height="match_parent">
 
                 <Button
-                    android:id="@+id/button32"
+                    android:id="@+id/btnMultiplicarEx6"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:backgroundTint="#5F6267"
@@ -241,7 +241,7 @@
                 android:layout_height="match_parent">
 
                 <Button
-                    android:id="@+id/button33"
+                    android:id="@+id/btnSubtrairEx6"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:backgroundTint="#5F6267"
@@ -255,7 +255,7 @@
                 android:layout_height="match_parent">
 
                 <Button
-                    android:id="@+id/button34"
+                    android:id="@+id/btnSomarEx6"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:backgroundTint="#5F6267"
