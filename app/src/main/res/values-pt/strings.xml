@@ -20,4 +20,8 @@
     <string name="Ex2_VerInformacoes">Ver informações</string>
     <string name="Ex2_msg">Olá</string>
     <string name="Ex2_Preferencias">Preferências</string>
+    <string name="celsius">Celsius</string>
+    <string name="fahrenheit">Fahrenheit</string>
+    <string name="calcular">Calcular</string>
+    <string name="resultado">Resultado</string>
 </resources>
