@@ -8,8 +8,8 @@ import kotlin.properties.Delegates
 
 class Ex6Activity : AppCompatActivity() {
 
-    var valor1 = 0
-    var valor2 = 0
+    var valor1: Double = 0.0
+    var valor2: Double = 0.0
     var check: Int = 0
     var operacao: Int = 0
 
@@ -23,8 +23,8 @@ class Ex6Activity : AppCompatActivity() {
         // Apagar
         btnApagarEx6.setOnClickListener {
             etNumerosEx6.setText("")
-            valor1 = 0
-            valor2 = 0
+            valor1 = 0.0
+            valor2 = 0.0
             check = 0
             operacao = 0
             txtResultadoEx6.setText("")
@@ -32,7 +32,8 @@ class Ex6Activity : AppCompatActivity() {
 
         // Igual
         btnIgualEx6.setOnClickListener {
-            var result: Number = 0
+            //var result: Number = 0
+            var result: Double = 0.0
 
             // Somar
             if( operacao == 0 )
@@ -63,17 +64,17 @@ class Ex6Activity : AppCompatActivity() {
 
     }
 
-    private fun addValor( valor: Int )
+    private fun addValor( valor: String )
     {
         if( check == 0 )
         {
-            valor1 = valor
+            valor1 = valor.toDouble()
             etNumerosEx6.setText( valor.toString() )
             check = 1
         }
         else
         {
-            valor2 = valor
+            valor2 = valor.toDouble()
             check = 0
             etNumerosEx6.setText( etNumerosEx6.text.toString() + " " + valor.toString() )
         }
@@ -89,43 +90,43 @@ class Ex6Activity : AppCompatActivity() {
     private fun addClickBotoesNumeros()
     {
         btn0Ex6.setOnClickListener {
-            addValor(0)
+            addValor("0")
         }
 
         btn1Ex6.setOnClickListener {
-            addValor(1)
+            addValor("1")
         }
 
         btn2Ex6.setOnClickListener {
-            addValor(2)
+            addValor("2")
         }
 
         btn3Ex6.setOnClickListener {
-            addValor(3)
+            addValor("3")
         }
 
         btn4Ex6.setOnClickListener {
-            addValor(4)
+            addValor("4")
         }
 
         btn5Ex6.setOnClickListener {
-            addValor(5)
+            addValor("5")
         }
 
         btn6Ex6.setOnClickListener {
-            addValor(6)
+            addValor("6")
         }
 
         btn7Ex6.setOnClickListener {
-            addValor(7)
+            addValor("7")
         }
 
         btn8Ex6.setOnClickListener {
-            addValor(8)
+            addValor("8")
         }
 
         btn9Ex6.setOnClickListener {
-            addValor(9)
+            addValor("9")
         }
 
     }

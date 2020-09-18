@@ -23,4 +23,13 @@
     <string name="fahrenheit">Fahrenheit</string>
     <string name="calcular">Calcular</string>
     <string name="resultado">Resultado</string>
+    <string name="conversor_metrico_imperial">Conversor Métrico/Imperial</string>
+    <string name="metrico_para_imperial">Métrico para Imperial</string>
+    <string name="imperial_para_metrico">Imperial para Métrico</string>
+    <string name="centimetros_cm">Centímetros (cm)</string>
+    <string name="polegadas">Polegadas</string>
+    <string name="metros_m">Métros (m)</string>
+    <string name="pes">Pés</string>
+    <string name="kilometros_km">kilometros (km)</string>
+    <string name="milhas">Milhas</string>
 </resources>
