@@ -15,9 +15,10 @@ class Fragmento1Ex01 : Fragment() {
 
          // Para acessar os recursos da view do fragmento, é preciso Digitar "view" antes, conforme está abaixo.
 
-         var texto: String = "Preencha todos os campos!"
-
          view.btnExFrag01Cadastrar.setOnClickListener {
+
+             var texto: String = "Preencha todos os campos!"
+
              if ( view.etExFrag01Nome.text.isNotEmpty() && view.etExFrag01Telefone.text.isNotEmpty() && view.etExFrag01Email.text.isNotEmpty() )
              {
                  texto = """Nome: ${view.etExFrag01Nome.text}
