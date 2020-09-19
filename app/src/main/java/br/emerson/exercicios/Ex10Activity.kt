@@ -5,6 +5,7 @@ import android.graphics.BitmapFactory
 import android.os.Bundle
 import android.widget.SeekBar
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.ContextCompat
 import kotlinx.android.synthetic.main.activity_ex10.*
 
 class Ex10Activity : AppCompatActivity() {
@@ -12,23 +13,32 @@ class Ex10Activity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_ex10)
 
-      //  val cadastro: ArrayList<Bitmap> = ArrayList()
-      //  cadastro.add( Base64Util.convertStringToBitmap(getString(R.string.helmets)) )
+
+        btnTeste.setOnClickListener {
+            imageViewEx10.setImageDrawable(
+                ContextCompat.getDrawable(
+                    applicationContext, // Context
+                    R.drawable.baseline_account_circle_black_48 // Drawable
+                )
+            )
+
+        }
 
         sbMudarImagensEx10.setOnSeekBarChangeListener( object: SeekBar.OnSeekBarChangeListener {
 
             override fun onProgressChanged(p0: SeekBar?, progress: Int, fromUser: Boolean)
             {
-                if(progress in 1..3)
+                if(progress in 1..20)
                 {
-                  ivImagemEx10.setImageResource(R.drawable.imagem1ex10)
-                  ivImagemEx10.tag = R.drawable.imagem1ex10
+                    imageViewEx10.setImageResource(R.drawable.baseline_account_circle_black_48)
+                    imageViewEx10.tag = R.drawable.baseline_account_circle_black_48
+
                 }
 
-                if(progress in 3..8)
+                if(progress in 20..40)
                 {
-                    ivImagemEx10.setImageResource(R.drawable.imagem2ex10)
-                    ivImagemEx10.tag = R.drawable.imagem2ex10
+                    imageViewEx10.setImageResource(R.drawable.baseline_backup_black_48)
+                    imageViewEx10.tag = R.drawable.baseline_backup_black_48
                 }
             }
 

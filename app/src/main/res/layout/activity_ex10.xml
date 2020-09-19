@@ -18,7 +18,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/ivImagemEx10"
+        android:id="@+id/imageViewEx10"
         android:layout_width="0dp"
         android:layout_height="300dp"
         android:layout_marginStart="32dp"
@@ -27,5 +27,17 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/sbMudarImagensEx10"
-        tools:srcCompat="@tools:sample/avatars" />
+        app:srcCompat="@drawable/baseline_account_box_black_48" />
+
+    <Button
+        android:id="@+id/btnTeste"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:text="Button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewEx10" />
 </androidx.constraintlayout.widget.ConstraintLayout>
